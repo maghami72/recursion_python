@@ -46,24 +46,45 @@ Number of combinations: 132
 برای مثال، اگر n = 3 باشد، اولین فراخوانی بازگشتی به صورت زیر خواهد بود:
 
 backtrack('', 0, 0):
+
 backtrack('(', 1, 0):
+
 backtrack('((', 2, 0):
+
 backtrack('(((', 3, 0):
+
 backtrack('((()', 3, 1):
+
 backtrack('((())', 3, 2):
+
 backtrack('((()))', 3, 3) (به لیست اضافه می‌شود)
+
 backtrack('(()', 2, 1):
+
 backtrack('(()(', 3, 1):
+
 backtrack('(()()', 3, 2):
+
 backtrack('(()())', 3, 3) (به لیست اضافه می‌شود)
+
 backtrack('(())', 2, 2):
+
 backtrack('(())(', 3, 2):
+
 backtrack('(())()', 3, 3) (به لیست اضافه می‌شود)
+
 backtrack('()', 1, 1):
+
 backtrack('()(', 2, 1):
+
 backtrack('()((', 3, 1):
+
 backtrack('()(()', 3, 2):
+
 backtrack('()(())', 3, 3) (به لیست اضافه می‌شود)
+
 backtrack('()()', 2, 2):
+
 backtrack('()()(', 3, 2):
+
 backtrack('()()()', 3, 3) (به لیست اضافه می‌شود)
